@@ -65,13 +65,18 @@ header {
   position: fixed;
 }
 
+.today {
+    margin: 140px 50px 75px 100px;
+  position: fixed;
+}
+
 /* List content */
 
 .list-item {
   list-style: none;
-  line-height: 30px;
+  line-height: 50px;
 }
-.icon {
+.check {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -81,6 +86,23 @@ header {
   text-align: center;
   vertical-align: middle;
   line-height: 22px;
+  line-height: 18px;
+}
+
+.remove {
+    display: inline-block;
+  width: 20px;
+  height: 20px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 22px;
+  font-size: 9px;
+  line-height: 18px;
+  
+
 }
 
 /* Linea orrizzontale */
@@ -101,8 +123,54 @@ hr {
   width: 60px;
   color: white;
   margin-left: 5px;
-  margin-top: 5px;
+  margin-top: 15px;
+  line-height: 18px;
+  position: fixed;
+  text-align: center;
+ border-radius: 10px;
+  display: inline;
+font-size: x-small;
+}
 
+.goals {
+    background-color: #c44dff;
+  height: 20px;
+  width: 60px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+  line-height: 18px;
+  position: fixed;
+  text-align: center;
+ border-radius: 10px;
+  display: inline;
+font-size: x-small;
+}
+
+.recruiting {
+    background-color: #2eb82e;
+  height: 20px;
+  width: 60px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+line-height: 18px;
+  position: fixed;
+  text-align: center;
+ border-radius: 10px;
+  display: inline;
+font-size: x-small;
+}
+
+
+.mobile {
+    background-color: #f96706;
+  height: 20px;
+  width: 60px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+line-height: 18px;
   position: fixed;
   text-align: center;
  border-radius: 10px;
