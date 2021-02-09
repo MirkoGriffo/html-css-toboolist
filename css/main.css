@@ -66,7 +66,11 @@ header {
 }
 
 .today {
-    margin: 140px 50px 75px 100px;
+  margin: 140px 50px 75px 100px;
+  position: fixed;
+}
+.upcoming {
+  margin: 385px 50px 75px 100px;
   position: fixed;
 }
 
@@ -90,7 +94,7 @@ header {
 }
 
 .remove {
-    display: inline-block;
+  display: inline-block;
   width: 20px;
   height: 20px;
   color: red;
@@ -101,8 +105,6 @@ header {
   line-height: 22px;
   font-size: 9px;
   line-height: 18px;
-  
-
 }
 
 /* Linea orrizzontale */
@@ -117,8 +119,7 @@ hr {
 /* Etichette */
 
 .editorial {
-
-    background-color: #0698f9;
+  background-color: #0698f9;
   height: 20px;
   width: 60px;
   color: white;
@@ -127,13 +128,13 @@ hr {
   line-height: 18px;
   position: fixed;
   text-align: center;
- border-radius: 10px;
+  border-radius: 10px;
   display: inline;
-font-size: x-small;
+  font-size: x-small;
 }
 
 .goals {
-    background-color: #c44dff;
+  background-color: #c44dff;
   height: 20px;
   width: 60px;
   color: white;
@@ -142,38 +143,67 @@ font-size: x-small;
   line-height: 18px;
   position: fixed;
   text-align: center;
- border-radius: 10px;
+  border-radius: 10px;
   display: inline;
-font-size: x-small;
+  font-size: x-small;
 }
 
 .recruiting {
-    background-color: #2eb82e;
+  background-color: #2eb82e;
   height: 20px;
   width: 60px;
   color: white;
   margin-left: 5px;
   margin-top: 15px;
-line-height: 18px;
+  line-height: 18px;
   position: fixed;
   text-align: center;
- border-radius: 10px;
+  border-radius: 10px;
   display: inline;
-font-size: x-small;
+  font-size: x-small;
 }
 
-
 .mobile {
-    background-color: #f96706;
+  background-color: #f96706;
   height: 20px;
   width: 60px;
   color: white;
   margin-left: 5px;
   margin-top: 15px;
-line-height: 18px;
+  line-height: 18px;
   position: fixed;
   text-align: center;
- border-radius: 10px;
+  border-radius: 10px;
   display: inline;
-font-size: x-small;
+  font-size: x-small;
+}
+
+.website {
+  background-color: #f04299;
+  height: 20px;
+  width: 60px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+  line-height: 18px;
+  position: fixed;
+  text-align: center;
+  border-radius: 10px;
+  display: inline;
+  font-size: x-small;
+}
+
+.sales {
+  background-color: #77b300;
+  height: 20px;
+  width: 60px;
+  color: white;
+  margin-left: 5px;
+  margin-top: 15px;
+  line-height: 18px;
+  position: fixed;
+  text-align: center;
+  border-radius: 10px;
+  display: inline;
+  font-size: x-small;
 }
